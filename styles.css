@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #128596;  
+    color:#FFF;
+    height: 100px;
+}
+
+header img{
+    padding-left: 2vw;
+}
+
+.menu{
+    display: none;
+}
+
+header div{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+header nav{
+    width: 70%;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+    
+}
+
+header li{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+header input{
+    border-radius:10px;
+    border: solid 2px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+header input::placeholder{
+    color: #636060;
+    padding-left: 5px;
+    border-left:10px solid transparent;
+    background-image: url('./assets/image\ 1.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+.firtSection{
+    background-image: url('./assets/image\ 4.png');
+    width:100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
